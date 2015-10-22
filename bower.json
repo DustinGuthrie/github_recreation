@@ -1,0 +1,21 @@
+{
+  "name": "github_recreation",
+  "homepage": "https://github.com/DustinGuthrie/github_recreation",
+  "description": "github recreation",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "octicons": "~3.1.0",
+    "underscore": "~1.8.3",
+    "normalize-css": "normalize.css#~3.0.3"
+  }
+}

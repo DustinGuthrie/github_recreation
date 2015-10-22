@@ -1,0 +1,115 @@
+header {
+  background-color: #e6e6e6;
+  width: 100%;
+  max-height: 50px;
+}
+.navbar ul  {
+    width: 60%;
+    padding-left: 0;
+    display:inline-block;
+    list-style: none;
+    margin: 0;
+    margin-left: 200px;
+    margin-right: 200px;
+    li {
+      display: inline-block;
+      font-weight: bold;
+      padding-right: 10px;
+    }
+  }
+.navleft {
+  float: left;
+  padding-top: 10px;
+  align-items: center;
+}
+.navright{
+  float: right;
+  padding-top: 5px;
+  align-items: center;
+  img {
+    width: 25%;
+    border-radius: 5px;
+  }
+}
+// main {
+//   width: 100%;
+//   margin: 0px, 200px, 0px, 200px;
+//   background-color: yellow;
+// }
+.rightSide {
+  width: 52%;
+  float: right;
+  margin-right: 200px;
+  margin-top: 20px;
+}
+.leftSide {
+  width: 250px;
+  float: left;
+  margin-left: 200px;
+  margin-top: 20px;
+    img{
+      width: 100%;
+      border-radius: 5px;
+    }
+  }
+.leftSide h3{
+      margin-bottom: 5px;
+  }
+.leftSide h4{
+      color: #b2b2b2;
+      margin-top: 0;
+      margin-bottom: 15px;
+  }
+.location li{
+  list-style: none;
+  padding-top: 15px;
+  border-top: 1px solid #e6e6e6;
+}
+.location p{
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.followers li{
+  list-style: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+.organizations {
+    border-top: 1px solid #e6e6e6;
+      img{
+        width: 15%;
+      }
+}
+footer {
+  clear: both;
+  width: 100%;
+  border-top: 1px solid grey;
+  ul {
+    list-style: none;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 0;
+    li {
+      display: inline-block;
+      font-size: 14px;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  }
+}
+// .fleft {
+//   float: left;
+//   display: inline-block;
+//   // width: 20%;
+//
+// }
+.Octocat {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+// .fright{
+//   float: right;
+//   display: inline-block;
+//   // padding-right:
+// }
