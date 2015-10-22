@@ -6,6 +6,7 @@ $('.photo h3').html(user.name);
 $('.photo h4').html(user.login);
 $('.location li').append(user.location)
 $('.location p').append(user.created_at)
+//some of these are actual links so we need to add in the a href
 
 //This is where we pull the repositories, sort by date, then add the pieces from
 //the string that we want to see
@@ -25,6 +26,8 @@ sortRepo.forEach(function(currVal, idx, arr) {
 });
 //After returning we need to determine how to make certain info clickable links
 $('.repos').html(repoHTML)
+//moment.js for the date?  how to use this?
+//some of these are also links so need to add the a href
 
 //For the Pubic Activity we have to do something similar and sort by created then concat
 //activity.actor.login + activity.type + activity.payload.ref + activity.repo.name
@@ -52,7 +55,18 @@ $('.repos').html(repoHTML)
 // +
 //This is the second line of the public activity that push events have
 
+
+//Here is a nother way we saw in class
+//_.each(activity, function (currVal))
+//if (currEvent.type ==="PushEvent"){
+//  activityHTML2
+//if (currEvent.type ==="")
+//}
+
 //Then something with a $('.pubactivity').click(function (event) {}0;
 //pubactivity will be the name of clicking that tab
+
+//event.preventDefault();
+//
 
 });
